@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="flex flex-col items-center text-center h-screen bg-green-600">
-      <div className="bg-black text-white py-5 w-full">곰사이트가 곰</div>
+      <div className="bg-black text-white py-5 w-full">그린withDal</div>
       <div className="flex justify-around w-full bg-orange-500 py-3">
         <Link href="/mindletter">
           <div className="text-white font-bold">마음 편지</div>
@@ -25,7 +25,7 @@ export default function Home() {
           <div className="text-white font-bold">편의즐기기</div>
         </Link>
       </div>
-      <div className="flex-1 w-full bg-green-600 text-[100px]">🐻</div>
+      <div className="flex-1 w-full bg-green-600 text-[100px]"></div>
     </div>
   );
 }
